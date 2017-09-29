@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+html, body {
+  height: 100%;
+    background: black;
+}
+
+body {
+  margin: 0;
+  display: flex;
+    flex-direction: column;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+.flexx {
+    display: flex;
+    justify-content: center;
+}
+
+.levell, .livess, .scoree {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    font-family: 'Press Start 2P';
+    color: aliceblue;
+}
