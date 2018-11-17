@@ -31,9 +31,14 @@ var lives = 4;
 var level = 1;
 var stars = 0;
 
+function preload() {
+    theme = loadSound('theme.mp3');
+}
+
 function setup() {
     createCanvas(750,690);
     background(200);
+    theme.play();
     grid = make2DArray(25,23);
     pac = new pacman();
     ene1 = new enemy();
